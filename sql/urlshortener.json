@@ -1,0 +1,18 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"urlShortener"},
+{"type":"table","name":"url","database":"urlShortener","data":
+[
+{"id":"2","user":"blup","url":"https:\/\/bluppy.com","slug":"blup","visits":"0"},
+{"id":"4","user":"test","url":"https:\/\/google.com\/","slug":"google","visits":"1"},
+{"id":"6","user":"test","url":"https:\/\/twitter.com\/home","slug":"twitter","visits":"0"},
+{"id":"7","user":"test","url":"https:\/\/facebook.com","slug":"fb","visits":"2"},
+{"id":"8","user":"test","url":"https:\/\/gitlab.com","slug":"gitlab","visits":"1"},
+{"id":"9","user":"test","url":"https:\/\/instagram.com","slug":"gram","visits":"2"},
+{"id":"10","user":"test","url":"https:\/\/amazon.com","slug":"a","visits":"1"},
+{"id":"12","user":"test","url":"https:\/\/tumblr.com","slug":"tumblr","visits":"1"},
+{"id":"13","user":"test","url":"https:\/\/adidas.com","slug":"ad","visits":"0"},
+{"id":"17","user":"bethuel","url":"https:\/\/github.com","slug":"github","visits":"0"}
+]
+}
+]

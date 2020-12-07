@@ -1,0 +1,205 @@
+body{
+    padding: 0;
+   overflow-y: hidden;  
+} 
+
+.nav-content {
+    font-size: 18px;
+    font-weight: 500;
+    font-size: 20px
+}
+
+nav {
+    position: sticky;
+    z-index: 10;
+}
+
+
+.add{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .8); 
+    justify-content: center;
+    align-items: center; 
+    overflow-y: scroll;
+    z-index: 12;  
+}
+.add .remove{
+    position: absolute;
+    top: 10px;
+    right: 10px; 
+    color: #e51c23;
+    z-index: 13;
+}
+.add form{ 
+   margin: 0 auto;
+   width: 50%;    
+}
+.add .form input{
+    color: white;
+}
+.urls{
+    margin: 0;   
+}
+.add .cover{
+    background: rgb(216, 224, 232);
+}
+.s11{
+    height: 100vh; 
+    padding-bottom: 30px;
+    overflow-y: scroll;
+} 
+ 
+.sidenavigator {
+    position: sticky;
+    height: 100vh;
+    top: 25px;
+}
+
+.sidenavigator ul { 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgba(222, 233, 242, 0.83);
+}
+div.cover {
+    position: relative;
+    margin: 6px auto;
+    top: 100px;
+    height: 50px;
+    width: 90%;
+}
+
+.cover a {
+    width: 50%;
+    font-size: 16px;
+    text-align: left;
+    float: left;
+}
+
+.cover .icon_link {
+    position: relative;
+    top: 5px;
+    font-size: 10px;
+}
+
+.list {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 42%;
+    height: 50px;
+}
+
+.list ul {
+    position: absolute;
+    right: 0;
+    width: 80%;
+    text-align: right;
+
+}
+
+.list ul i {
+    margin: 0 6px;
+}
+
+.link-info {
+    height: auto;
+    padding: 2em;
+    width: 94%;
+    margin: 10px auto;
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+    grid-gap: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.grid-el {
+    width: 100%;
+    height: 200px;
+    border-radius: 8px;
+    text-align: center;
+}
+.grid-el:hover{
+    opacity: .7;
+}
+ 
+.links_num {
+    position: absolute;
+    color: white;
+    font-size: 43px;
+    font-weight: 600;
+    text-shadow: 4px 4px #121212;
+    top: 20px;
+    left: 33px;
+}
+
+.v2 {
+    position: relative;
+    margin: 0 auto;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.spin {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    animation: spin 6s linear infinite;
+}
+
+.g2 .spin {
+    border-top: 2px solid hsl(358, 79%, 68%);
+    border-bottom: 2px solid hsl(358, 79%, 68%);
+}
+
+.g3 .spin {
+    border-top: 2px solid aqua;
+    border-bottom: 2px solid aqua;
+
+}
+.notify{
+    position: fixed;
+    top: 44px;  
+    right: 10px;
+    width: 210px;
+    width: fit-content;  
+    padding: .1em; 
+    border-radius: 14px;
+    background: rgba(3, 3, 3);  
+    display: flex;
+    align-items: center; 
+    z-index: 11;  
+}
+.notify .msg{
+    flex: 7;
+    width: 80%;
+    color: white;  
+    font-size: 99%;   
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}  
+.notify .remove{
+    flex:2; 
+    width: 20%;
+    color: white; 
+}
+@keyframes spin {
+    to {
+        transform: rotate(360deg)
+    }
+}
+
+@media screen and (max-width: 614px) {
+    .link-info {
+        background-color: white;
+    }
+
+    .link-info {
+        grid-template-columns: 80%;
+    }
+}

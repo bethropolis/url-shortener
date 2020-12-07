@@ -1,0 +1,60 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+nav a{
+    margin: 0 12px;  
+}
+form.container{
+    margin-top: 70px;
+}  
+
+.spinner{  
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  border-top: 1px solid #e51c23;
+  border-bottom: 1px solid #e51c23;  
+  top: 50%;
+  left: 50%; 
+ animation: spin 1s linear infinite; 
+}  
+
+@keyframes spin{
+    to{
+        transform: rotate(360deg); 
+    }
+}
+
+input{
+    font-weight: 600; 
+}
+
+.urls{
+height: auto; 
+margin-top: 100px;
+list-style: none;
+  
+}
+.urls a{
+    display: flex; 
+    justify-content: center;  
+}  
+.urls li{  
+  padding: 20px;
+  margin: 5px 0;      
+  width: 90%;    
+} 
+
+.by{
+    position: absolute;
+    font-size: 15px;  
+    right: 12px;
+    bottom: 5px;   
+}
+
+.fa:hover,.fa:focus{ 
+    color: #e51c23;
+}
